@@ -22,5 +22,4 @@ function bundle (file) {
     });
 }
 
-bundle('/../example/foo.coffee');
-bundle('/../example/foo.litcoffee');
+bundle('/../example/foo.co');
