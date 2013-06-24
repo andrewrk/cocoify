@@ -6,7 +6,7 @@ mix and match `.co` and `.js` files in the same project
 
 **important: when using require('path/to/file.co') remember to use .co extension**
 
-[![build status](https://secure.travis-ci.org/superjoe30/cocoify.png)](http://travis-ci.org/superjoe30/coco)
+[![build status](https://secure.travis-ci.org/superjoe30/cocoify.png)](http://travis-ci.org/superjoe30/cocoify)
 
 # example
 
