@@ -1,6 +1,6 @@
 # cocoify
 
-browserify v2 plugin for coco
+browserify v2 plugin for [coco](http://github.com/satyr/coco)
 
 mix and match `.co` and `.js` files in the same project
 
