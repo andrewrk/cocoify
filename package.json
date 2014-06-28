@@ -1,10 +1,12 @@
 {
   "name": "cocoify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "browserify v2 plugin for coco with support for mixed .js and .co files",
   "main": "index.js",
   "dependencies": {
-    "through": "~2.2.0",
+    "through": "~2.2.0"
+  },
+  "peerDependencies": {
     "coco": "~0.9.1"
   },
   "devDependencies": {
