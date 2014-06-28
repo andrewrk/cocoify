@@ -4,7 +4,7 @@ browserify v2 plugin for [coco](http://github.com/satyr/coco)
 
 mix and match `.co` and `.js` files in the same project
 
-**important: when using require('path/to/file.co') remember to use .co extension**
+**Important:** Your Coco files must have the extension `.co` though you can omit it when calling `require`.
 
 [![build status](https://secure.travis-ci.org/superjoe30/cocoify.png)](http://travis-ci.org/superjoe30/cocoify)
 
@@ -38,7 +38,7 @@ $ npm install cocoify
 
 when you compile your app, just pass `-t cocoify` to browserify:
 
-```
+```sh
 $ browserify -t cocoify foo.co > bundle.js
 $ node bundle.js
 555
@@ -48,7 +48,7 @@ $ node bundle.js
 
 With [npm](https://npmjs.org) do:
 
-```
+```sh
 npm install cocoify
 ```
 

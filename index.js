@@ -3,8 +3,8 @@ var through = require('through');
 
 function compile(file, data) {
     var js = coco.compile(data, {
-      generatedFile: file,
-      inline: true,
+      filename: file,
+      bare: true,
     });
     return js;
 }
